@@ -3,10 +3,10 @@
 A collection of elliptic curves over **Q** of rank 4 to 14, given by minimal
 Weierstrass model together with explicit Mordell-Weil generators.
 
-Every curve here has **proven** rank. For each one the listed generators are
+Every curve here has proven rank. For each one the listed generators are
 verified to lie on the curve and to be independent, which gives the rank as a
 lower bound, and a 2-descent upper bound matches it. Every model is the minimal
-model, and no curve appears twice.
+model.
 
 ## Contents
 
