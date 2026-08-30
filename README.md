@@ -54,6 +54,8 @@ E = ellinit([a1,a2,a3,a4,a6]);
 `generators_scatterplots.pdf`, some notes on what the Mordell-Weil generators of
 these curves look like when normalized by the curve's own c4.
 
+Github is giving me an error when trying to render the pdf, so please download it if you wish to read it.
+
 ## Status
 
 This is an ongoing computation, and the collection is being extended to higher
