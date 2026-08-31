@@ -3,35 +3,36 @@
 A collection of elliptic curves over **Q** of rank 4 to 14, given by minimal
 Weierstrass model together with explicit Mordell-Weil generators.
 
-Every curve here has proven rank. For each one the listed generators are
+Every curve here has **proven** rank. For each one the listed generators are
 verified to lie on the curve and to be independent, which gives the rank as a
 lower bound, and a 2-descent upper bound matches it. Every model is the minimal
-model.
+model, and no curve appears twice.
 
 ## Contents
 
 | file | rank | curves | smallest conductor found |
 |---|---:|---:|---:|
-| `rank_4.tsv.gz` | 4 | 577,645 | log N = 12.3650 |
-| `rank_5.tsv.gz` | 5 | 410,002 | log N = 16.7625 |
-| `rank_6.tsv.gz` | 6 | 488,037 | log N = 22.3695 |
-| `rank_7.tsv.gz` | 7 | 501,449 | log N = 26.6703 |
-| `rank_8.tsv.gz` | 8 | 544,521 | log N = 33.1511 |
-| `rank_9.tsv.gz` | 9 | 556,942 | log N = 38.0079 |
-| `rank_10.tsv.gz` | 10 | 303,559 | log N = 43.7679 |
-| `rank_11.tsv.gz` | 11 | 80,224 | log N = 51.2464 |
-| `rank_12.tsv.gz` | 12 | 6,233 | log N = 57.7645 |
-| `rank_13.tsv.gz` | 13 | 460 | log N = 64.7385 |
-| `rank_14.tsv.gz` | 14 | 32 | log N = 74.5871 |
+| `rank_4.tsv.gz` | 4 | 577,645 | log N = 12.364981 |
+| `rank_5.tsv.gz` | 5 | 410,002 | log N = 16.762465 |
+| `rank_6.tsv.gz` | 6 | 494,407 | log N = 22.369530 |
+| `rank_7.tsv.gz` | 7 | 518,865 | log N = 26.670318 |
+| `rank_8.tsv.gz` | 8 | 604,528 | log N = 33.151079 |
+| `rank_9.tsv.gz` | 9 | 846,745 | log N = 38.007861 |
+| `rank_10.part1.tsv.gz`, `rank_10.part2.tsv.gz` | 10 | 930,257 | log N = 43.767868 |
+| `rank_11.tsv.gz` | 11 | 413,248 | log N = 51.246420 |
+| `rank_12.tsv.gz` | 12 | 59,484 | log N = 57.764522 |
+| `rank_13.tsv.gz` | 13 | 1,488 | log N = 64.738469 |
+| `rank_14.tsv.gz` | 14 | 33 | log N = 74.587110 |
 
-3,469,104 curves in total.
+4,856,702 curves in total.
 
 ## Format
 
 Tab-separated, gzipped, one curve per line, sorted by ascending conductor.
-The files are gzipped because two of them exceed GitHub's 100 MB file limit
+The files are gzipped because several of them exceed GitHub's 100 MB file limit
 uncompressed; `gunzip` or `zcat` reads them, and pandas, R and awk all read
-`.gz` directly.
+`.gz` directly. Rank 10 is split into two parts because it exceeds the limit
+even compressed; both parts carry the same header.
 
 | column | meaning |
 |---|---|
@@ -60,3 +61,5 @@ Github is giving me an error when trying to render the pdf, so please download i
 
 This is an ongoing computation, and the collection is being extended to higher
 ranks. A description of how the curves were found will follow.
+
+Michael Rubinstein, University of Waterloo
