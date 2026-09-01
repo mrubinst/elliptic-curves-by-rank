@@ -45,14 +45,18 @@ parts after dropping the repeated header lines reconstitutes the rank.
 | `generators` | independent points generating a finite-index subgroup of rank many |
 
 Points are given as `[x,y]` in the coordinates of the listed minimal model, and
-may have rational coordinates. To read a curve in PARI/GP:
+**may have rational coordinates**: 42% of the curves here have at least one
+generator with a denominator, and denominators reach 32 digits, so read them as
+exact rationals. Likewise most of the conductors exceed 2^53, so read the
+`conductor` column as an exact integer and not as a floating point number.
+
+No curve appears twice, but a small number of the curves are isogenous to each
+other, and isogenous curves share rank, conductor and L-function. In the range
+published here that affects 14 curves. To read a curve in PARI/GP:
 
 ```
 E = ellinit([a1,a2,a3,a4,a6]);
 ```
-
-Conductors exceed 2^53 throughout most of the collection, so read the
-`conductor` column as an exact integer rather than as a floating point number.
 
 ## Also here
 
