@@ -14,17 +14,17 @@ model, and no curve appears twice.
 |---|---:|---:|---:|
 | `rank_4.tsv.gz` | 4 | 577,645 | log N = 12.364981 |
 | `rank_5.tsv.gz` | 5 | 410,002 | log N = 16.762465 |
-| `rank_6.tsv.gz` | 6 | 501,328 | log N = 22.369530 |
-| `rank_7.tsv.gz` | 7 | 532,880 | log N = 26.670318 |
-| `rank_8.tsv.gz` | 8 | 640,145 | log N = 33.151079 |
-| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 970,947 | log N = 38.007861 |
-| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,459,139 | log N = 43.767868 |
-| `rank_11.part1.tsv.gz`, `rank_11.part2.tsv.gz` | 11 | 950,245 | log N = 51.246420 |
-| `rank_12.tsv.gz` | 12 | 96,780 | log N = 57.764522 |
-| `rank_13.tsv.gz` | 13 | 1,687 | log N = 64.738469 |
-| `rank_14.tsv.gz` | 14 | 33 | log N = 74.587110 |
+| `rank_6.tsv.gz` | 6 | 502,056 | log N = 22.369530 |
+| `rank_7.tsv.gz` | 7 | 533,899 | log N = 26.670318 |
+| `rank_8.tsv.gz` | 8 | 642,126 | log N = 33.151079 |
+| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 975,861 | log N = 38.007861 |
+| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,475,691 | log N = 43.767868 |
+| `rank_11.part1.tsv.gz`, `rank_11.part2.tsv.gz` | 11 | 1,021,525 | log N = 51.246420 |
+| `rank_12.tsv.gz` | 12 | 212,536 | log N = 57.764522 |
+| `rank_13.tsv.gz` | 13 | 20,561 | log N = 64.738469 |
+| `rank_14.tsv.gz` | 14 | 291 | log N = 74.077904 |
 
-6,140,831 curves in total.
+6,372,193 curves in total.
 
 ## Format
 
