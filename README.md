@@ -10,21 +10,33 @@ model, and no curve appears twice.
 
 ## Contents
 
-| file | rank | curves | smallest conductor found |
-|---|---:|---:|---:|
-| `rank_4.tsv.gz` | 4 | 577,645 | log N = 12.364981 |
-| `rank_5.tsv.gz` | 5 | 410,002 | log N = 16.762465 |
-| `rank_6.tsv.gz` | 6 | 517,766 | log N = 22.369530 |
-| `rank_7.tsv.gz` | 7 | 551,603 | log N = 26.670318 |
-| `rank_8.tsv.gz` | 8 | 674,348 | log N = 33.151079 |
-| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 1,038,230 | log N = 38.007861 |
-| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,518,526 | log N = 43.767868 |
-| `rank_11.part1.tsv.gz` .. `rank_11.part4.tsv.gz` | 11 | 1,560,638 | log N = 51.246420 |
-| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | 12 | 468,891 | log N = 57.764522 |
-| `rank_13.tsv.gz` | 13 | 23,017 | log N = 64.738469 |
-| `rank_14.tsv.gz` | 14 | 301 | log N = 74.077904 |
+| file | rank | curves | smallest log N | smallest naive height | smallest Faltings height | smallest log abs(disc) |
+|---|---:|---:|---:|---:|---:|---:|
+| `rank_4.tsv.gz` | 4 | 577,645 | 12.364981 | 21.574288 | -0.173133 | 13.058128 |
+| `rank_5.tsv.gz` | 5 | 410,002 | 16.762465 | 24.317973 | 0.083690 | 16.762465 |
+| `rank_6.tsv.gz` | 6 | 517,766 | 22.369530 | 30.376041 | 0.582833 | 22.643449 |
+| `rank_7.tsv.gz` | 7 | 551,603 | 26.670318 | 35.779031 | 1.036540 | 28.235073 |
+| `rank_8.tsv.gz` | 8 | 674,348 | 33.151079 | 41.826383 | 1.524454 | 33.962016 |
+| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 1,038,230 | 38.007861 | 47.863736 | 1.982707 | 39.095558 |
+| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,518,526 | 43.767868 | 54.348977 | 2.510505 | 45.376023 |
+| `rank_11.part1.tsv.gz` .. `rank_11.part4.tsv.gz` | 11 | 1,560,638 | 51.246420 | 61.346666 | 3.041194 | 51.246420 |
+| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | 12 | 468,891 | 57.764522 | 68.672711 | 3.722319 | 59.188359 |
+| `rank_13.tsv.gz` | 13 | 23,017 | 64.738469 | 75.137429 | 4.245237 | 65.837081 |
+| `rank_14.tsv.gz` | 14 | 301 | 74.077904 | 83.160631 | 4.987386 | 74.771051 |
 
 7,340,967 curves in total.
+
+The four minima in each row are taken independently over that rank, so they are
+generally attained by four different curves. Heights are natural logarithms.
+The naive height is log max(abs(c4)^3, c6^2), and abs(disc) is the absolute
+value of the minimal discriminant. The Faltings height is the unstable one,
+normalized as
+
+    h_Fal(E) = -(1/2) log abs(Im(conj(w1) w2)),
+
+with w1, w2 a basis of the period lattice of the minimal model, which is the
+normalization used by the Elliptic Curve Rank Leaderboard at
+https://elliptic-rank.icarm.cloud. It is negative for some rank 4 curves.
 
 ## Format
 
