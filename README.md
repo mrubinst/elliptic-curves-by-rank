@@ -14,24 +14,24 @@ model, and no curve appears twice.
 |---|---:|---:|---:|
 | `rank_4.tsv.gz` | 4 | 577,645 | log N = 12.364981 |
 | `rank_5.tsv.gz` | 5 | 410,002 | log N = 16.762465 |
-| `rank_6.tsv.gz` | 6 | 502,056 | log N = 22.369530 |
-| `rank_7.tsv.gz` | 7 | 533,899 | log N = 26.670318 |
-| `rank_8.tsv.gz` | 8 | 642,126 | log N = 33.151079 |
-| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 975,861 | log N = 38.007861 |
-| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,475,691 | log N = 43.767868 |
-| `rank_11.part1.tsv.gz`, `rank_11.part2.tsv.gz` | 11 | 1,021,525 | log N = 51.246420 |
-| `rank_12.tsv.gz` | 12 | 212,536 | log N = 57.764522 |
-| `rank_13.tsv.gz` | 13 | 20,561 | log N = 64.738469 |
-| `rank_14.tsv.gz` | 14 | 291 | log N = 74.077904 |
+| `rank_6.tsv.gz` | 6 | 517,766 | log N = 22.369530 |
+| `rank_7.tsv.gz` | 7 | 551,603 | log N = 26.670318 |
+| `rank_8.tsv.gz` | 8 | 674,348 | log N = 33.151079 |
+| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 1,038,230 | log N = 38.007861 |
+| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,518,526 | log N = 43.767868 |
+| `rank_11.part1.tsv.gz` .. `rank_11.part4.tsv.gz` | 11 | 1,560,638 | log N = 51.246420 |
+| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | 12 | 468,891 | log N = 57.764522 |
+| `rank_13.tsv.gz` | 13 | 23,017 | log N = 64.738469 |
+| `rank_14.tsv.gz` | 14 | 301 | log N = 74.077904 |
 
-6,372,193 curves in total.
+7,340,967 curves in total.
 
 ## Format
 
 Tab-separated, gzipped, one curve per line, sorted by ascending conductor.
 The files are gzipped because several of them exceed GitHub's 100 MB file limit
 uncompressed; `gunzip` or `zcat` reads them, and pandas, R and awk all read
-`.gz` directly. Ranks 9, 10 and 11 are split into parts because they exceed the
+`.gz` directly. Ranks 9 to 12 are split into parts because they exceed the
 limit even compressed; every part carries the same header, so concatenating the
 parts after dropping the repeated header lines reconstitutes the rank.
 
@@ -45,14 +45,15 @@ parts after dropping the repeated header lines reconstitutes the rank.
 | `generators` | independent points generating a finite-index subgroup of rank many |
 
 Points are given as `[x,y]` in the coordinates of the listed minimal model, and
-**may have rational coordinates**: 42% of the curves here have at least one
+**may have rational coordinates**: 48% of the curves here have at least one
 generator with a denominator, and denominators reach 32 digits, so read them as
 exact rationals. Likewise most of the conductors exceed 2^53, so read the
 `conductor` column as an exact integer and not as a floating point number.
 
 No curve appears twice, but a small number of the curves are isogenous to each
 other, and isogenous curves share rank, conductor and L-function. In the range
-published here that affects 14 curves. To read a curve in PARI/GP:
+published here that affects 28 curves, forming 14 isogenous pairs. To read a
+curve in PARI/GP:
 
 ```
 E = ellinit([a1,a2,a3,a4,a6]);
