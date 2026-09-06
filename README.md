@@ -12,22 +12,24 @@ model, and no curve appears twice.
 
 | file | rank | curves | smallest log N | smallest naive height | smallest Faltings height | smallest log abs(disc) |
 |---|---:|---:|---:|---:|---:|---:|
-| `rank_4.tsv.gz` | 4 | 577,645 | 12.364981 | 21.574288 | -0.173133 | 13.058128 |
-| `rank_5.tsv.gz` | 5 | 410,002 | 16.762465 | 24.317973 | 0.083690 | 16.762465 |
-| `rank_6.tsv.gz` | 6 | 517,766 | 22.369530 | 30.376041 | 0.582833 | 22.643449 |
-| `rank_7.tsv.gz` | 7 | 551,603 | 26.670318 | 35.779031 | 1.036540 | 28.235073 |
-| `rank_8.tsv.gz` | 8 | 674,348 | 33.151079 | 41.826383 | 1.524454 | 33.962016 |
-| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | 9 | 1,038,230 | 38.007861 | 47.863736 | 1.982707 | 39.095558 |
-| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | 10 | 1,518,526 | 43.767868 | 54.348977 | 2.510505 | 45.376023 |
-| `rank_11.part1.tsv.gz` .. `rank_11.part4.tsv.gz` | 11 | 1,560,638 | 51.246420 | 61.346666 | 3.041194 | 51.246420 |
-| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | 12 | 468,891 | 57.764522 | 68.672711 | 3.722319 | 59.188359 |
-| `rank_13.tsv.gz` | 13 | 23,017 | 64.738469 | 75.137429 | 4.245237 | 65.837081 |
-| `rank_14.tsv.gz` | 14 | 301 | 74.077904 | 83.160631 | 4.987386 | 74.771051 |
+| `rank_4.tsv.gz` | [4](records/rank_4.md) | 577,645 | [12.364981](records/rank_4.md#smallest-conductor) | [21.574288](records/rank_4.md#smallest-naive-height) | [-0.173133](records/rank_4.md#smallest-faltings-height) | [13.058128](records/rank_4.md#smallest-absolute-discriminant) |
+| `rank_5.tsv.gz` | [5](records/rank_5.md) | 410,002 | [16.762465](records/rank_5.md#smallest-conductor) | [24.317973](records/rank_5.md#smallest-naive-height) | [0.083690](records/rank_5.md#smallest-faltings-height) | [16.762465](records/rank_5.md#smallest-absolute-discriminant) |
+| `rank_6.tsv.gz` | [6](records/rank_6.md) | 517,766 | [22.369530](records/rank_6.md#smallest-conductor) | [30.376041](records/rank_6.md#smallest-naive-height) | [0.582833](records/rank_6.md#smallest-faltings-height) | [22.643449](records/rank_6.md#smallest-absolute-discriminant) |
+| `rank_7.tsv.gz` | [7](records/rank_7.md) | 551,603 | [26.670318](records/rank_7.md#smallest-conductor) | [35.779031](records/rank_7.md#smallest-naive-height) | [1.036540](records/rank_7.md#smallest-faltings-height) | [28.235073](records/rank_7.md#smallest-absolute-discriminant) |
+| `rank_8.tsv.gz` | [8](records/rank_8.md) | 674,348 | [33.151079](records/rank_8.md#smallest-conductor) | [41.826383](records/rank_8.md#smallest-naive-height) | [1.524454](records/rank_8.md#smallest-faltings-height) | [33.962016](records/rank_8.md#smallest-absolute-discriminant) |
+| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | [9](records/rank_9.md) | 1,038,230 | [38.007861](records/rank_9.md#smallest-conductor) | [47.863736](records/rank_9.md#smallest-naive-height) | [1.982707](records/rank_9.md#smallest-faltings-height) | [39.095558](records/rank_9.md#smallest-absolute-discriminant) |
+| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | [10](records/rank_10.md) | 1,518,526 | [43.767868](records/rank_10.md#smallest-conductor) | [54.348977](records/rank_10.md#smallest-naive-height) | [2.510505](records/rank_10.md#smallest-faltings-height) | [45.376023](records/rank_10.md#smallest-absolute-discriminant) |
+| `rank_11.part1.tsv.gz` .. `rank_11.part4.tsv.gz` | [11](records/rank_11.md) | 1,560,638 | [51.246420](records/rank_11.md#smallest-conductor) | [61.346666](records/rank_11.md#smallest-naive-height) | [3.041194](records/rank_11.md#smallest-faltings-height) | [51.246420](records/rank_11.md#smallest-absolute-discriminant) |
+| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | [12](records/rank_12.md) | 468,891 | [57.764522](records/rank_12.md#smallest-conductor) | [68.672711](records/rank_12.md#smallest-naive-height) | [3.722319](records/rank_12.md#smallest-faltings-height) | [59.188359](records/rank_12.md#smallest-absolute-discriminant) |
+| `rank_13.tsv.gz` | [13](records/rank_13.md) | 23,017 | [64.738469](records/rank_13.md#smallest-conductor) | [75.137429](records/rank_13.md#smallest-naive-height) | [4.245237](records/rank_13.md#smallest-faltings-height) | [65.837081](records/rank_13.md#smallest-absolute-discriminant) |
+| `rank_14.tsv.gz` | [14](records/rank_14.md) | 301 | [74.077904](records/rank_14.md#smallest-conductor) | [83.160631](records/rank_14.md#smallest-naive-height) | [4.987386](records/rank_14.md#smallest-faltings-height) | [74.771051](records/rank_14.md#smallest-absolute-discriminant) |
 
 7,340,967 curves in total.
 
-The four minima in each row are taken independently over that rank, so they are
-generally attained by four different curves. Heights are natural logarithms.
+Every figure in the table links to the ten smallest curves of that rank in that
+category, with their a-invariants, exact conductors and full generators, under
+[`records/`](records/). The four minima in each row are taken independently over
+that rank, so they are generally attained by four different curves. Heights are natural logarithms.
 The naive height is log max(abs(c4)^3, c6^2), and abs(disc) is the absolute
 value of the minimal discriminant. The Faltings height is the unstable one,
 normalized as
