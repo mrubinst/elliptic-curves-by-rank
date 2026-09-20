@@ -1,6 +1,6 @@
 # Elliptic curves by rank
 
-A collection of elliptic curves over **Q** of rank 4 to 14, given by minimal
+A collection of elliptic curves over **Q** of rank 4 to 15, given by minimal
 Weierstrass model together with explicit Mordell-Weil generators.
 
 Every curve here has **proven** rank. For each one the listed generators are
@@ -17,14 +17,15 @@ model, and no curve appears twice.
 | `rank_6.tsv.gz` | [6](records/rank_6.md) | 521,990 | [22.369530](records/rank_6.md#smallest-conductor) | [30.376041](records/rank_6.md#smallest-naive-height) | [0.582833](records/rank_6.md#smallest-faltings-height) | [22.643449](records/rank_6.md#smallest-absolute-discriminant) |
 | `rank_7.tsv.gz` | [7](records/rank_7.md) | 581,906 | [26.670318](records/rank_7.md#smallest-conductor) | [35.779031](records/rank_7.md#smallest-naive-height) | [1.036540](records/rank_7.md#smallest-faltings-height) | [28.235073](records/rank_7.md#smallest-absolute-discriminant) |
 | `rank_8.tsv.gz` | [8](records/rank_8.md) | 675,436 | [33.151079](records/rank_8.md#smallest-conductor) | [41.826383](records/rank_8.md#smallest-naive-height) | [1.524454](records/rank_8.md#smallest-faltings-height) | [33.962016](records/rank_8.md#smallest-absolute-discriminant) |
-| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | [9](records/rank_9.md) | 1,042,876 | [38.007861](records/rank_9.md#smallest-conductor) | [47.863736](records/rank_9.md#smallest-naive-height) | [1.982707](records/rank_9.md#smallest-faltings-height) | [39.095558](records/rank_9.md#smallest-absolute-discriminant) |
-| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | [10](records/rank_10.md) | 1,557,727 | [43.767868](records/rank_10.md#smallest-conductor) | [54.348977](records/rank_10.md#smallest-naive-height) | [2.510505](records/rank_10.md#smallest-faltings-height) | [45.376023](records/rank_10.md#smallest-absolute-discriminant) |
-| `rank_11.part1.tsv.gz` .. `rank_11.part5.tsv.gz` | [11](records/rank_11.md) | 2,124,144 | [51.246420](records/rank_11.md#smallest-conductor) | [61.346666](records/rank_11.md#smallest-naive-height) | [3.041194](records/rank_11.md#smallest-faltings-height) | [51.246420](records/rank_11.md#smallest-absolute-discriminant) |
-| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | [12](records/rank_12.md) | 575,765 | [57.764522](records/rank_12.md#smallest-conductor) | [68.672711](records/rank_12.md#smallest-naive-height) | [3.722319](records/rank_12.md#smallest-faltings-height) | [59.188359](records/rank_12.md#smallest-absolute-discriminant) |
-| `rank_13.tsv.gz` | [13](records/rank_13.md) | 26,087 | [64.738469](records/rank_13.md#smallest-conductor) | [75.137429](records/rank_13.md#smallest-naive-height) | [4.245237](records/rank_13.md#smallest-faltings-height) | [65.837081](records/rank_13.md#smallest-absolute-discriminant) |
-| `rank_14.tsv.gz` | [14](records/rank_14.md) | 313 | [73.026906](records/rank_14.md#smallest-conductor) | [82.371945](records/rank_14.md#smallest-naive-height) | [4.863211](records/rank_14.md#smallest-faltings-height) | [73.720054](records/rank_14.md#smallest-absolute-discriminant) |
+| `rank_9.part1.tsv.gz`, `rank_9.part2.tsv.gz` | [9](records/rank_9.md) | 1,042,915 | [38.007861](records/rank_9.md#smallest-conductor) | [47.863736](records/rank_9.md#smallest-naive-height) | [1.982707](records/rank_9.md#smallest-faltings-height) | [39.095558](records/rank_9.md#smallest-absolute-discriminant) |
+| `rank_10.part1.tsv.gz` .. `rank_10.part3.tsv.gz` | [10](records/rank_10.md) | 1,558,505 | [43.767868](records/rank_10.md#smallest-conductor) | [54.348977](records/rank_10.md#smallest-naive-height) | [2.510505](records/rank_10.md#smallest-faltings-height) | [45.376023](records/rank_10.md#smallest-absolute-discriminant) |
+| `rank_11.part1.tsv.gz` .. `rank_11.part5.tsv.gz` | [11](records/rank_11.md) | 2,129,461 | [51.246420](records/rank_11.md#smallest-conductor) | [61.346666](records/rank_11.md#smallest-naive-height) | [3.041194](records/rank_11.md#smallest-faltings-height) | [51.246420](records/rank_11.md#smallest-absolute-discriminant) |
+| `rank_12.part1.tsv.gz`, `rank_12.part2.tsv.gz` | [12](records/rank_12.md) | 587,708 | [57.764522](records/rank_12.md#smallest-conductor) | [68.672711](records/rank_12.md#smallest-naive-height) | [3.722319](records/rank_12.md#smallest-faltings-height) | [59.188359](records/rank_12.md#smallest-absolute-discriminant) |
+| `rank_13.tsv.gz` | [13](records/rank_13.md) | 32,150 | [64.738469](records/rank_13.md#smallest-conductor) | [75.137429](records/rank_13.md#smallest-naive-height) | [4.245237](records/rank_13.md#smallest-faltings-height) | [65.837081](records/rank_13.md#smallest-absolute-discriminant) |
+| `rank_14.tsv.gz` | [14](records/rank_14.md) | 1,117 | [72.303161](records/rank_14.md#smallest-conductor) | [82.371945](records/rank_14.md#smallest-naive-height) | [4.863211](records/rank_14.md#smallest-faltings-height) | [73.720054](records/rank_14.md#smallest-absolute-discriminant) |
+| `rank_15.tsv.gz` | [15](records/rank_15.md) | 4 | [84.757260](records/rank_15.md#smallest-conductor) | [97.454227](records/rank_15.md#smallest-naive-height) | [6.092890](records/rank_15.md#smallest-faltings-height) | [88.158457](records/rank_15.md#smallest-absolute-discriminant) |
 
-8,093,891 curves in total.
+8,118,839 curves in total.
 
 Every figure in the table links to the ten smallest curves of that rank in that
 category, with their a-invariants, exact conductors and full generators, under
@@ -59,7 +60,7 @@ parts after dropping the repeated header lines reconstitutes the rank.
 | `generators` | independent points generating a finite-index subgroup of rank many |
 
 Points are given as `[x,y]` in the coordinates of the listed minimal model, and
-**may have rational coordinates**: 51% of the curves here have at least one
+**may have rational coordinates**: 50% of the curves here have at least one
 generator with a denominator, and denominators reach 32 digits, so read them as
 exact rationals. Likewise most of the conductors exceed 2^53, so read the
 `conductor` column as an exact integer and not as a floating point number.
