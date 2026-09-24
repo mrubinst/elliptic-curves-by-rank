@@ -74,6 +74,35 @@ curve in PARI/GP:
 E = ellinit([a1,a2,a3,a4,a6]);
 ```
 
+## Curves by torsion subgroup
+
+The curves above with a nontrivial torsion subgroup are also collected by torsion
+group under [`torsion/`](torsion/), one file per group, with the same columns plus
+`torsion` (the group) and `torsion_generators` (points generating the torsion
+subgroup, in the coordinates of the listed model). The torsion files are extracted
+from the same master list as the rank files, which are refreshed less often, so a
+curve can appear here before it appears in its `rank_r` file. The groups present so far:
+
+| file | torsion | curves | ranks | smallest log N by rank |
+|---|---|---:|---|---|
+| `torsion/torsion_Z2.tsv.gz` | [Z/2](records/torsion_Z2.md) | 571,540 | 4 to 9 | [4: 40.969](records/torsion_Z2.md#rank-4), [5: 19.263](records/torsion_Z2.md#rank-5), [6: 24.529](records/torsion_Z2.md#rank-6), [7: 30.739](records/torsion_Z2.md#rank-7), [8: 36.438](records/torsion_Z2.md#rank-8), [9: 47.260](records/torsion_Z2.md#rank-9) |
+| `torsion/torsion_Z3.tsv.gz` | [Z/3](records/torsion_Z3.md) | 3,040 | 4 to 8 | [4: 45.140](records/torsion_Z3.md#rank-4), [5: 22.840](records/torsion_Z3.md#rank-5), [6: 29.422](records/torsion_Z3.md#rank-6), [7: 36.860](records/torsion_Z3.md#rank-7), [8: 44.372](records/torsion_Z3.md#rank-8) |
+| `torsion/torsion_Z2xZ2.tsv.gz` | [Z/2xZ/2](records/torsion_Z2xZ2.md) | 178 | 5 to 6 | [5: 24.168](records/torsion_Z2xZ2.md#rank-5), [6: 29.062](records/torsion_Z2xZ2.md#rank-6) |
+
+Smallest log N in this collection by rank and torsion group:
+
+| rank | Z/2 | Z/3 | Z/2xZ/2 |
+|---:|---:|---:|---:|
+| 4 | [40.969](records/torsion_Z2.md#rank-4) | [45.140](records/torsion_Z3.md#rank-4) |  |
+| 5 | [19.263](records/torsion_Z2.md#rank-5) | [22.840](records/torsion_Z3.md#rank-5) | [24.168](records/torsion_Z2xZ2.md#rank-5) |
+| 6 | [24.529](records/torsion_Z2.md#rank-6) | [29.422](records/torsion_Z3.md#rank-6) | [29.062](records/torsion_Z2xZ2.md#rank-6) |
+| 7 | [30.739](records/torsion_Z2.md#rank-7) | [36.860](records/torsion_Z3.md#rank-7) |  |
+| 8 | [36.438](records/torsion_Z2.md#rank-8) | [44.372](records/torsion_Z3.md#rank-8) |  |
+| 9 | [47.260](records/torsion_Z2.md#rank-9) |  |  |
+
+The search for curves with the other torsion groups (Z/4 to Z/12, Z/2xZ/4, Z/2xZ/6,
+Z/2xZ/8) is in progress; their files will be added as curves are proven.
+
 ## Also here
 
 `generators_scatterplots.pdf`, some notes on what the Mordell-Weil generators of
