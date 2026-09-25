@@ -85,20 +85,27 @@ curve can appear here before it appears in its `rank_r` file. The groups present
 
 | file | torsion | curves | ranks | smallest log N by rank |
 |---|---|---:|---|---|
-| `torsion/torsion_Z2.tsv.gz` | [Z/2](records/torsion_Z2.md) | 571,540 | 4 to 9 | [4: 40.969](records/torsion_Z2.md#rank-4), [5: 19.263](records/torsion_Z2.md#rank-5), [6: 24.529](records/torsion_Z2.md#rank-6), [7: 30.739](records/torsion_Z2.md#rank-7), [8: 36.438](records/torsion_Z2.md#rank-8), [9: 47.260](records/torsion_Z2.md#rank-9) |
-| `torsion/torsion_Z3.tsv.gz` | [Z/3](records/torsion_Z3.md) | 3,040 | 4 to 8 | [4: 45.140](records/torsion_Z3.md#rank-4), [5: 22.840](records/torsion_Z3.md#rank-5), [6: 29.422](records/torsion_Z3.md#rank-6), [7: 36.860](records/torsion_Z3.md#rank-7), [8: 44.372](records/torsion_Z3.md#rank-8) |
+| `torsion/torsion_Z2.tsv.gz` | [Z/2](records/torsion_Z2.md) | 571,550 | 4 to 9 | [4: 15.298](records/torsion_Z2.md#rank-4), [5: 19.263](records/torsion_Z2.md#rank-5), [6: 24.529](records/torsion_Z2.md#rank-6), [7: 30.739](records/torsion_Z2.md#rank-7), [8: 36.438](records/torsion_Z2.md#rank-8), [9: 47.260](records/torsion_Z2.md#rank-9) |
+| `torsion/torsion_Z3.tsv.gz` | [Z/3](records/torsion_Z3.md) | 3,090 | 4 to 8 | [4: 16.239](records/torsion_Z3.md#rank-4), [5: 22.840](records/torsion_Z3.md#rank-5), [6: 29.422](records/torsion_Z3.md#rank-6), [7: 36.860](records/torsion_Z3.md#rank-7), [8: 44.372](records/torsion_Z3.md#rank-8) |
+| `torsion/torsion_Z4.tsv.gz` | [Z/4](records/torsion_Z4.md) | 4,316 | 4 to 6 | [4: 17.737](records/torsion_Z4.md#rank-4), [5: 22.184](records/torsion_Z4.md#rank-5), [6: 29.901](records/torsion_Z4.md#rank-6) |
+| `torsion/torsion_Z5.tsv.gz` | [Z/5](records/torsion_Z5.md) | 2,156 | 4 to 6 | [4: 21.613](records/torsion_Z5.md#rank-4), [5: 29.021](records/torsion_Z5.md#rank-5), [6: 36.471](records/torsion_Z5.md#rank-6) |
+| `torsion/torsion_Z6.tsv.gz` | [Z/6](records/torsion_Z6.md) | 91 | 4 to 5 | [4: 19.975](records/torsion_Z6.md#rank-4), [5: 29.321](records/torsion_Z6.md#rank-5) |
+| `torsion/torsion_Z7.tsv.gz` | [Z/7](records/torsion_Z7.md) | 8 | 4 to 4 | [4: 29.804](records/torsion_Z7.md#rank-4) |
+| `torsion/torsion_Z8.tsv.gz` | [Z/8](records/torsion_Z8.md) | 21 | 4 to 4 | [4: 29.638](records/torsion_Z8.md#rank-4) |
 | `torsion/torsion_Z2xZ2.tsv.gz` | [Z/2xZ/2](records/torsion_Z2xZ2.md) | 178 | 5 to 6 | [5: 24.168](records/torsion_Z2xZ2.md#rank-5), [6: 29.062](records/torsion_Z2xZ2.md#rank-6) |
+| `torsion/torsion_Z4xZ2.tsv.gz` | [Z/4xZ/2](records/torsion_Z4xZ2.md) | 2 | 4 to 4 | [4: 22.553](records/torsion_Z4xZ2.md#rank-4) |
+| `torsion/torsion_Z6xZ2.tsv.gz` | [Z/6xZ/2](records/torsion_Z6xZ2.md) | 25 | 4 to 4 | [4: 31.586](records/torsion_Z6xZ2.md#rank-4) |
 
 Smallest log N in this collection by rank and torsion group:
 
-| rank | Z/2 | Z/3 | Z/2xZ/2 |
-|---:|---:|---:|---:|
-| 4 | [40.969](records/torsion_Z2.md#rank-4) | [45.140](records/torsion_Z3.md#rank-4) |  |
-| 5 | [19.263](records/torsion_Z2.md#rank-5) | [22.840](records/torsion_Z3.md#rank-5) | [24.168](records/torsion_Z2xZ2.md#rank-5) |
-| 6 | [24.529](records/torsion_Z2.md#rank-6) | [29.422](records/torsion_Z3.md#rank-6) | [29.062](records/torsion_Z2xZ2.md#rank-6) |
-| 7 | [30.739](records/torsion_Z2.md#rank-7) | [36.860](records/torsion_Z3.md#rank-7) |  |
-| 8 | [36.438](records/torsion_Z2.md#rank-8) | [44.372](records/torsion_Z3.md#rank-8) |  |
-| 9 | [47.260](records/torsion_Z2.md#rank-9) |  |  |
+| rank | Z/2 | Z/3 | Z/4 | Z/5 | Z/6 | Z/7 | Z/8 | Z/2xZ/2 | Z/4xZ/2 | Z/6xZ/2 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 4 | [15.298](records/torsion_Z2.md#rank-4) | [16.239](records/torsion_Z3.md#rank-4) | [17.737](records/torsion_Z4.md#rank-4) | [21.613](records/torsion_Z5.md#rank-4) | [19.975](records/torsion_Z6.md#rank-4) | [29.804](records/torsion_Z7.md#rank-4) | [29.638](records/torsion_Z8.md#rank-4) |  | [22.553](records/torsion_Z4xZ2.md#rank-4) | [31.586](records/torsion_Z6xZ2.md#rank-4) |
+| 5 | [19.263](records/torsion_Z2.md#rank-5) | [22.840](records/torsion_Z3.md#rank-5) | [22.184](records/torsion_Z4.md#rank-5) | [29.021](records/torsion_Z5.md#rank-5) | [29.321](records/torsion_Z6.md#rank-5) |  |  | [24.168](records/torsion_Z2xZ2.md#rank-5) |  |  |
+| 6 | [24.529](records/torsion_Z2.md#rank-6) | [29.422](records/torsion_Z3.md#rank-6) | [29.901](records/torsion_Z4.md#rank-6) | [36.471](records/torsion_Z5.md#rank-6) |  |  |  | [29.062](records/torsion_Z2xZ2.md#rank-6) |  |  |
+| 7 | [30.739](records/torsion_Z2.md#rank-7) | [36.860](records/torsion_Z3.md#rank-7) |  |  |  |  |  |  |  |  |
+| 8 | [36.438](records/torsion_Z2.md#rank-8) | [44.372](records/torsion_Z3.md#rank-8) |  |  |  |  |  |  |  |  |
+| 9 | [47.260](records/torsion_Z2.md#rank-9) |  |  |  |  |  |  |  |  |  |
 
 The search for curves with the other torsion groups (Z/4 to Z/12, Z/2xZ/4, Z/2xZ/6,
 Z/2xZ/8) is in progress; their files will be added as curves are proven.
