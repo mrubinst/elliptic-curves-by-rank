@@ -8,7 +8,7 @@ heights are natural logarithms; the naive height is `log max(abs(c4)^3, c6^2)`.
 
 | rank | curves | smallest log N | smallest naive height | smallest log abs(disc) |
 |---:|---:|---:|---:|---:|
-| 4 | 81 | [19.975296](#rank-4) | 65.355045 | 55.194721 |
+| 4 | 80 | [19.975296](#rank-4) | 65.355045 | 55.194721 |
 | 5 | 10 | [29.321437](#rank-5) | 97.515725 | 87.705428 |
 
 ## Rank 4
