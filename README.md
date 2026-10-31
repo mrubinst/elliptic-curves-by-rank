@@ -2,6 +2,9 @@
 
 A collection of elliptic curves over **Q** of rank 4 to 15, given by minimal
 Weierstrass model together with explicit Mordell-Weil generators.
+Separate sections hold curves by torsion subgroup, curves from parametrized
+families (up to rank 21), and curves from Mestre's ten-point construction
+(ranks 13 to 19).
 
 Every curve here has **proven** rank. For each one the listed generators are
 verified to lie on the curve and to be independent, which gives the rank as a
@@ -131,6 +134,31 @@ every curve has proven rank, is given by its global minimal model, and appears o
 | `families/family_Z4.part1.tsv.gz`, `families/family_Z4.part2.tsv.gz`; added: `families/family_Z4.add_2026-10-24.part1.tsv.gz`, `families/family_Z4.add_2026-10-24.part2.tsv.gz` | [Z/4](records/family_Z4.md) | 811,776 | 5 to 10 | [5: 24.649](records/family_Z4.md#rank-5), [6: 32.690](records/family_Z4.md#rank-6), [7: 40.747](records/family_Z4.md#rank-7), [8: 48.168](records/family_Z4.md#rank-8), [9: 61.548](records/family_Z4.md#rank-9), [10: 73.475](records/family_Z4.md#rank-10) |
 | `families/family_Z5.tsv.gz` | [Z/5](records/family_Z5.md) | 18 | 4 to 4 | [4: 22.139](records/family_Z5.md#rank-4) |
 | `families/family_Z6.tsv.gz` | [Z/6](records/family_Z6.md) | 15 | 4 to 5 | [4: 22.973](records/family_Z6.md#rank-4), [5: 30.341](records/family_Z6.md#rank-5) |
+
+## Curves from Mestre's ten-point construction
+
+The directory [`mestre/`](mestre/) holds curves obtained from J.-F. Mestre's construction of elliptic curves
+through ten prescribed points: for distinct rationals a_1, ..., a_10 write
+(x - a_1)(x - a_2)...(x - a_10) = q(x)^2 - r(x) with q of degree 5 and r of degree at most 4; the genus one
+curve y^2 = r(x) then has the rational points (a_i, q(a_i)), and its Jacobian is the elliptic curve listed.
+These curves are kept separate from the `rank_r` files. There is one file per rank, with the same columns as the
+`rank_r` files, sorted by conductor. Every curve has proven rank, trivial torsion, and is given by its global
+minimal model with generators verified as everywhere in this repository.
+
+This is a snapshot of 2026-10-31; the list is still being extended and will be updated.
+6 of these curves also appear in the `rank_r` files.
+
+| file | rank | curves | smallest log N | smallest naive height | smallest log abs(disc) |
+|---|---:|---:|---:|---:|---:|
+| `mestre/mestre_rank_13.tsv.gz` | [13](records/mestre.md#rank-13) | 122,726 | [67.155222](records/mestre.md#rank-13) | 84.406821 | 73.845529 |
+| `mestre/mestre_rank_14.tsv.gz` | [14](records/mestre.md#rank-14) | 113,111 | [75.515870](records/mestre.md#rank-14) | 91.057097 | 79.770709 |
+| `mestre/mestre_rank_15.tsv.gz` | [15](records/mestre.md#rank-15) | 58,427 | [83.958062](records/mestre.md#rank-15) | 98.836190 | 87.589944 |
+| `mestre/mestre_rank_16.tsv.gz` | [16](records/mestre.md#rank-16) | 10,072 | [90.067823](records/mestre.md#rank-16) | 108.812563 | 99.031223 |
+| `mestre/mestre_rank_17.tsv.gz` | [17](records/mestre.md#rank-17) | 608 | [103.439446](records/mestre.md#rank-17) | 123.030334 | 115.516854 |
+| `mestre/mestre_rank_18.tsv.gz` | [18](records/mestre.md#rank-18) | 11 | [113.074489](records/mestre.md#rank-18) | 134.945190 | 126.760832 |
+| `mestre/mestre_rank_19.tsv.gz` | [19](records/mestre.md#rank-19) | 2 | [124.678458](records/mestre.md#rank-19) | 163.859885 | 149.550411 |
+
+304,957 curves in total.
 
 ## Also here
 
