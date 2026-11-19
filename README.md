@@ -32,8 +32,9 @@ model, and no curve appears twice.
 
 The files of 2026-09-29 are unchanged. Curves proven since then are in the files whose names contain
 `add_2026-10-24`, with the same columns and the same sort order; for each rank, torsion group or family
-group, the collection is the union of the original files and the added ones. No curve appears twice
-across all of these files.
+group, the collection is the union of the original files and the added ones. Further curves were added on
+2026-11-19 to the last two sections below, in files whose names contain `add_2026-11-19`. No curve
+appears twice across all of these files.
 
 Every figure in the table links to the ten smallest curves of that rank in that
 category, with their a-invariants, exact conductors and full generators, under
@@ -129,11 +130,11 @@ every curve has proven rank, is given by its global minimal model, and appears o
 
 | file | torsion | curves | ranks | smallest log N by rank |
 |---|---|---:|---|---|
-| `families/family_trivial.tsv.gz` | [trivial](records/family_trivial.md) | 134 | 13 to 21 | [13: 77.797](records/family_trivial.md#rank-13), [14: 86.302](records/family_trivial.md#rank-14), [15: 96.221](records/family_trivial.md#rank-15), [16: 107.477](records/family_trivial.md#rank-16), [17: 119.205](records/family_trivial.md#rank-17), [18: 121.679](records/family_trivial.md#rank-18), [19: 137.182](records/family_trivial.md#rank-19), [20: 145.331](records/family_trivial.md#rank-20), [21: 166.030](records/family_trivial.md#rank-21) |
-| `families/family_Z2.part1.tsv.gz` .. `families/family_Z2.part11.tsv.gz`; added: `families/family_Z2.add_2026-10-24.part1.tsv.gz` .. `families/family_Z2.add_2026-10-24.part9.tsv.gz` | [Z/2](records/family_Z2.md) | 2,806,953 | 4 to 17 | [4: 36.900](records/family_Z2.md#rank-4), [5: 25.760](records/family_Z2.md#rank-5), [6: 31.720](records/family_Z2.md#rank-6), [7: 41.382](records/family_Z2.md#rank-7), [8: 49.720](records/family_Z2.md#rank-8), [9: 56.637](records/family_Z2.md#rank-9), [10: 56.173](records/family_Z2.md#rank-10), [11: 65.938](records/family_Z2.md#rank-11), [12: 74.055](records/family_Z2.md#rank-12), [13: 85.035](records/family_Z2.md#rank-13), [14: 95.519](records/family_Z2.md#rank-14), [15: 101.026](records/family_Z2.md#rank-15), [16: 131.966](records/family_Z2.md#rank-16), [17: 146.353](records/family_Z2.md#rank-17) |
-| `families/family_Z4.part1.tsv.gz`, `families/family_Z4.part2.tsv.gz`; added: `families/family_Z4.add_2026-10-24.part1.tsv.gz`, `families/family_Z4.add_2026-10-24.part2.tsv.gz` | [Z/4](records/family_Z4.md) | 811,776 | 5 to 10 | [5: 24.649](records/family_Z4.md#rank-5), [6: 32.690](records/family_Z4.md#rank-6), [7: 40.747](records/family_Z4.md#rank-7), [8: 48.168](records/family_Z4.md#rank-8), [9: 61.548](records/family_Z4.md#rank-9), [10: 73.475](records/family_Z4.md#rank-10) |
-| `families/family_Z5.tsv.gz` | [Z/5](records/family_Z5.md) | 18 | 4 to 4 | [4: 22.139](records/family_Z5.md#rank-4) |
-| `families/family_Z6.tsv.gz` | [Z/6](records/family_Z6.md) | 15 | 4 to 5 | [4: 22.973](records/family_Z6.md#rank-4), [5: 30.341](records/family_Z6.md#rank-5) |
+| `families/family_trivial.tsv.gz`; added: `families/family_trivial.add_2026-11-19.tsv.gz` | [trivial](records/family_trivial.md) | 135 | 13 to 21 | [13: 77.797](records/family_trivial.md#rank-13), [14: 86.302](records/family_trivial.md#rank-14), [15: 96.221](records/family_trivial.md#rank-15), [16: 107.477](records/family_trivial.md#rank-16), [17: 119.205](records/family_trivial.md#rank-17), [18: 117.463](records/family_trivial.md#rank-18), [19: 137.182](records/family_trivial.md#rank-19), [20: 145.331](records/family_trivial.md#rank-20), [21: 166.030](records/family_trivial.md#rank-21) |
+| `families/family_Z2.part1.tsv.gz` .. `families/family_Z2.part11.tsv.gz`; added: `families/family_Z2.add_2026-10-24.part1.tsv.gz` .. `families/family_Z2.add_2026-10-24.part9.tsv.gz`, `families/family_Z2.add_2026-11-19.tsv.gz` | [Z/2](records/family_Z2.md) | 2,806,960 | 4 to 17 | [4: 36.900](records/family_Z2.md#rank-4), [5: 25.760](records/family_Z2.md#rank-5), [6: 31.720](records/family_Z2.md#rank-6), [7: 41.382](records/family_Z2.md#rank-7), [8: 49.720](records/family_Z2.md#rank-8), [9: 56.637](records/family_Z2.md#rank-9), [10: 56.173](records/family_Z2.md#rank-10), [11: 65.938](records/family_Z2.md#rank-11), [12: 74.055](records/family_Z2.md#rank-12), [13: 85.035](records/family_Z2.md#rank-13), [14: 95.519](records/family_Z2.md#rank-14), [15: 101.026](records/family_Z2.md#rank-15), [16: 131.966](records/family_Z2.md#rank-16), [17: 146.353](records/family_Z2.md#rank-17) |
+| `families/family_Z4.part1.tsv.gz`, `families/family_Z4.part2.tsv.gz`; added: `families/family_Z4.add_2026-10-24.part1.tsv.gz`, `families/family_Z4.add_2026-10-24.part2.tsv.gz`, `families/family_Z4.add_2026-11-19.tsv.gz` | [Z/4](records/family_Z4.md) | 811,789 | 5 to 12 | [5: 24.649](records/family_Z4.md#rank-5), [6: 32.690](records/family_Z4.md#rank-6), [7: 40.747](records/family_Z4.md#rank-7), [8: 48.168](records/family_Z4.md#rank-8), [9: 60.753](records/family_Z4.md#rank-9), [10: 73.475](records/family_Z4.md#rank-10), [11: 90.078](records/family_Z4.md#rank-11), [12: 106.485](records/family_Z4.md#rank-12) |
+| `families/family_Z5.tsv.gz`; added: `families/family_Z5.add_2026-11-19.tsv.gz` | [Z/5](records/family_Z5.md) | 19 | 4 to 7 | [4: 22.139](records/family_Z5.md#rank-4), [7: 53.534](records/family_Z5.md#rank-7) |
+| `families/family_Z6.tsv.gz`; added: `families/family_Z6.add_2026-11-19.tsv.gz` | [Z/6](records/family_Z6.md) | 27 | 4 to 7 | [4: 22.973](records/family_Z6.md#rank-4), [5: 30.341](records/family_Z6.md#rank-5), [6: 34.924](records/family_Z6.md#rank-6), [7: 47.042](records/family_Z6.md#rank-7) |
 
 ## Curves from Mestre's ten-point construction
 
@@ -145,20 +146,22 @@ These curves are kept separate from the `rank_r` files. There is one file per ra
 `rank_r` files, sorted by conductor. Every curve has proven rank, trivial torsion, and is given by its global
 minimal model with generators verified as everywhere in this repository.
 
-This is a snapshot of 2026-10-31; the list is still being extended and will be updated.
-6 of these curves also appear in the `rank_r` files.
+The files of 2026-10-31 are unchanged. Curves added on 2026-11-19 are in the files whose names contain
+`add_2026-11-19`, with the same columns and the same sort order; for each rank the collection is the union of
+the original files and the added ones. The list is still being extended and will be updated.
+64 of these curves also appear in the `rank_r` files.
 
 | file | rank | curves | smallest log N | smallest naive height | smallest log abs(disc) |
 |---|---:|---:|---:|---:|---:|
-| `mestre/mestre_rank_13.tsv.gz` | [13](records/mestre.md#rank-13) | 122,726 | [67.155222](records/mestre.md#rank-13) | 84.406821 | 73.845529 |
-| `mestre/mestre_rank_14.tsv.gz` | [14](records/mestre.md#rank-14) | 113,111 | [75.515870](records/mestre.md#rank-14) | 91.057097 | 79.770709 |
-| `mestre/mestre_rank_15.tsv.gz` | [15](records/mestre.md#rank-15) | 58,427 | [83.958062](records/mestre.md#rank-15) | 98.836190 | 87.589944 |
-| `mestre/mestre_rank_16.tsv.gz` | [16](records/mestre.md#rank-16) | 10,072 | [90.067823](records/mestre.md#rank-16) | 108.812563 | 99.031223 |
-| `mestre/mestre_rank_17.tsv.gz` | [17](records/mestre.md#rank-17) | 608 | [103.439446](records/mestre.md#rank-17) | 123.030334 | 115.516854 |
-| `mestre/mestre_rank_18.tsv.gz` | [18](records/mestre.md#rank-18) | 11 | [113.074489](records/mestre.md#rank-18) | 134.945190 | 126.760832 |
-| `mestre/mestre_rank_19.tsv.gz` | [19](records/mestre.md#rank-19) | 2 | [124.678458](records/mestre.md#rank-19) | 163.859885 | 149.550411 |
+| `mestre/mestre_rank_13.tsv.gz`; added: `mestre/mestre_rank_13.add_2026-11-19.part1.tsv.gz` .. `mestre/mestre_rank_13.add_2026-11-19.part6.tsv.gz` | [13](records/mestre.md#rank-13) | 1,615,404 | [65.920209](records/mestre.md#rank-13) | 78.761585 | 68.447910 |
+| `mestre/mestre_rank_14.tsv.gz`; added: `mestre/mestre_rank_14.add_2026-11-19.part1.tsv.gz` .. `mestre/mestre_rank_14.add_2026-11-19.part6.tsv.gz` | [14](records/mestre.md#rank-14) | 1,477,476 | [74.123165](records/mestre.md#rank-14) | 87.716173 | 79.204705 |
+| `mestre/mestre_rank_15.tsv.gz`; added: `mestre/mestre_rank_15.add_2026-11-19.part1.tsv.gz` .. `mestre/mestre_rank_15.add_2026-11-19.part3.tsv.gz` | [15](records/mestre.md#rank-15) | 704,138 | [81.761096](records/mestre.md#rank-15) | 98.050928 | 87.589944 |
+| `mestre/mestre_rank_16.tsv.gz`; added: `mestre/mestre_rank_16.add_2026-11-19.tsv.gz` | [16](records/mestre.md#rank-16) | 142,254 | [90.067823](records/mestre.md#rank-16) | 108.812563 | 99.031223 |
+| `mestre/mestre_rank_17.tsv.gz`; added: `mestre/mestre_rank_17.add_2026-11-19.tsv.gz` | [17](records/mestre.md#rank-17) | 7,994 | [102.874779](records/mestre.md#rank-17) | 118.988062 | 110.230898 |
+| `mestre/mestre_rank_18.tsv.gz`; added: `mestre/mestre_rank_18.add_2026-11-19.tsv.gz` | [18](records/mestre.md#rank-18) | 37 | [113.074489](records/mestre.md#rank-18) | 132.023508 | 123.661273 |
+| `mestre/mestre_rank_19.tsv.gz`; added: `mestre/mestre_rank_19.add_2026-11-19.tsv.gz` | [19](records/mestre.md#rank-19) | 4 | [124.678458](records/mestre.md#rank-19) | 163.859885 | 149.550411 |
 
-304,957 curves in total.
+3,947,307 curves in total.
 
 ## Also here
 
